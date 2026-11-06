@@ -1,29 +1,38 @@
 
-# Python environment
+# Python environments
 .venv/
 venv/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Jupyter notebooks
-.ipynb_checkpoints/
-
-# MLflow tracking database
-mlflow.db
-mlflow.db-shm
-mlflow.db-wal
-
-# SQLite databases
-*.db
-
-# Environment variables and secrets
-.env
 
 # IDE
 .vscode/
 
+# MLflow tracking files
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+**/mlruns/
+
+# SQLite databases
+*.db
+
+# Training and intermediate datasets
+Notebooks/mlruns/
+data/creditcard10000_cleaned.csv
+data/x_test.csv
+data/x_train.csv
+data/y_test.csv
+data/y_train.csv
+models/LR_model.pkl
+
+# Unused model
+models/LR_model.pkl
+
+# Environment variables
+.env
+
 # Temporary files
 *.log
-.DS_Store
+.ipynb_checkpoints/
