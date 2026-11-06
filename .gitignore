@@ -1,0 +1,29 @@
+
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# MLflow tracking database
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# SQLite databases
+*.db
+
+# Environment variables and secrets
+.env
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store

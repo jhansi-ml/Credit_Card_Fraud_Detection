@@ -1,0 +1,34 @@
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+Notebooks/
+*.ipynb
+
+# Screenshots
+screenshots/
+
+# Git
+.git/
+
+# MLflow tracking database
+mlflow.db
+
+# Existing SQLite prediction database
+predictionsDB.db
+
+# Training and testing datasets
+data/x_train.csv
+data/x_test.csv
+data/y_train.csv
+data/y_test.csv
+data/creditcard10000_cleaned.csv
+
+# Local environment files
+.env
